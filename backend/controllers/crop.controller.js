@@ -12,7 +12,7 @@ export const checkDisease=async(req,res)=>{
     const url=''
     const response=await fetch(url,imgUrl)
     */
-   const response=""
+   const response="This is disease response"
     await User.updateOne(
         {_id:req.user._id},
         {$push : {logs:{image:imageUrl,desc:response}}}
